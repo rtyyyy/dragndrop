@@ -21,6 +21,7 @@ event.target.className = "item"
 function dragover(event){
 event.preventDefault()
 }
+
 function dragenter(event){
     event.target.classList.add("hover")
 }
